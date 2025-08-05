@@ -1,0 +1,56 @@
+INFO - 2025-08-06 03:33:05,128 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-08-06 03:33:05,130 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-08-06 03:33:05,130 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-08-06 03:33:05,131 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-08-06 03:33:05,131 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-08-06 03:33:05,132 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-08-06 03:33:05,133 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+ERROR - 2025-08-06 03:33:07,172 - sendrequest.py:110 -[sendrequest:send_request] - ConnectionError--连接异常
+INFO - 2025-08-06 03:36:41,043 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-08-06 03:36:41,044 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-08-06 03:36:41,044 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-08-06 03:36:41,044 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-08-06 03:36:41,045 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-08-06 03:36:41,045 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-08-06 03:36:41,046 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+ERROR - 2025-08-06 03:36:43,102 - sendrequest.py:110 -[sendrequest:send_request] - ConnectionError--连接异常
+INFO - 2025-08-06 03:39:25,174 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-08-06 03:39:25,175 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-08-06 03:39:25,175 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-08-06 03:39:25,175 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-08-06 03:39:25,176 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-08-06 03:39:25,176 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-08-06 03:39:25,178 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+ERROR - 2025-08-06 03:39:27,224 - sendrequest.py:110 -[sendrequest:send_request] - ConnectionError--连接异常
+INFO - 2025-08-06 03:42:25,227 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-08-06 03:42:25,228 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-08-06 03:42:25,228 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-08-06 03:42:25,228 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-08-06 03:42:25,229 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-08-06 03:42:25,229 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-08-06 03:42:25,230 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+ERROR - 2025-08-06 03:42:27,280 - sendrequest.py:110 -[sendrequest:send_request] - ConnectionError--连接异常
+INFO - 2025-08-06 03:44:04,585 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-08-06 03:44:04,585 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-08-06 03:44:04,586 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-08-06 03:44:04,586 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-08-06 03:44:04,586 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-08-06 03:44:04,587 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-08-06 03:44:04,588 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+ERROR - 2025-08-06 03:44:06,648 - sendrequest.py:110 -[sendrequest:send_request] - ConnectionError--连接异常
+INFO - 2025-08-06 03:48:22,073 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-08-06 03:48:22,074 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-08-06 03:48:22,074 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-08-06 03:48:22,075 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-08-06 03:48:22,075 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-08-06 03:48:22,075 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-08-06 03:48:22,077 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+ERROR - 2025-08-06 03:48:24,112 - sendrequest.py:110 -[sendrequest:send_request] - ConnectionError--连接异常
+INFO - 2025-08-06 03:49:17,893 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-08-06 03:49:17,894 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-08-06 03:49:17,894 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-08-06 03:49:17,895 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-08-06 03:49:17,895 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-08-06 03:49:17,895 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-08-06 03:49:17,896 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+ERROR - 2025-08-06 03:49:19,923 - sendrequest.py:110 -[sendrequest:send_request] - ConnectionError--连接异常

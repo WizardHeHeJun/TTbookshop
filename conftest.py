@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import time
-
 import pytest
 
 from common.readyaml import ReadYamlData
@@ -11,6 +10,16 @@ from conf.setting import dd_msg
 import warnings
 
 yfd = ReadYamlData()
+
+# 全局变量记录测试开始时间
+session_start_time = 0
+
+
+@pytest.hookimpl
+def pytest_sessionstart(session):
+    """记录测试开始时间"""
+    global session_start_time
+    session_start_time = time.time()
 
 
 @pytest.fixture(scope="session", autouse=True)
@@ -29,7 +38,14 @@ def generate_test_summary(terminalreporter):
     failed = len(terminalreporter.stats.get('failed', []))
     error = len(terminalreporter.stats.get('error', []))
     skipped = len(terminalreporter.stats.get('skipped', []))
-    duration = time.time() - terminalreporter._sessionstarttime
+
+    # 使用全局记录的测试开始时间计算持续时间
+    duration = time.time() - session_start_time
+
+    # 格式化持续时间（小时:分钟:秒.毫秒）
+    hours, rem = divmod(duration, 3600)
+    minutes, seconds = divmod(rem, 60)
+    duration_str = f"{int(hours):0>2}:{int(minutes):0>2}:{seconds:06.3f}"
 
     summary = f"""
     自动化测试结果，通知如下，请着重关注测试失败的接口，具体执行结果如下：
@@ -38,7 +54,7 @@ def generate_test_summary(terminalreporter):
     测试失败数：{failed}
     错误数量：{error}
     跳过执行数量：{skipped}
-    执行总时长：{duration}
+    执行总时长：{duration_str}
     """
     print(summary)
     return summary
